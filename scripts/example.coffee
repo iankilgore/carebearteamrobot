@@ -23,15 +23,15 @@ module.exports = (robot) ->
    robot.hear /I like pie/i, (res) ->
      res.emote "makes a freshly baked pie"
 
-   lulz = ['lol', 'rofl', 'lmao']
+     lulz = ['lol', 'rofl', 'lmao']
 
    robot.respond /lulz/i, (res) ->
      res.send res.random lulz
 
-     hiya=['hi','hello','ouch']
+fart = ['hi','hello','ouch']
 
-   robot.respond /hiya/i, (res) ->
-     res.send res.random hiya
+   robot.respond /fart/i, (res) ->
+     res.send res.random fart
 
 
    #answer = process.env.HUBOT_ANSWER_TO_THE_ULTIMATE_QUESTION_OF_LIFE_THE_UNIVERSE_AND_EVERYTHING
