@@ -27,8 +27,3 @@ lulz = ['lol', 'rofl', 'lmao']
 
 robot.respond /lulz/i, (res) ->
 res.send res.random lulz
-
-fart = ['hi','hello','ouch']
-
-robot.respond /fart/i, (res) ->
-res.send res.random fart
