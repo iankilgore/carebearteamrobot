@@ -27,6 +27,7 @@ module.exports = (robot) ->
 
    robot.respond /lulz/i, (res) ->
      res.send res.random lulz
+     
     robot.respond /hiya/i, (res) ->
     res.send res.random lulz
 
