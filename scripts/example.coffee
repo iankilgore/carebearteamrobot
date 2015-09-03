@@ -34,8 +34,6 @@ module.exports = (robot) ->
 
    enterReplies = ['Hi', 'Target Acquired', 'Firing', 'Hello friend.', 'Gotcha', 'I see you']
    leaveReplies = ['Are you still there?', 'Target lost', 'Searching']
- robot.respond /hello/i, (res) ->
-   res.send res.random lulz
 
    robot.enter (res) ->
      res.send res.random enterReplies
